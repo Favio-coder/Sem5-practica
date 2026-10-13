@@ -1,0 +1,134 @@
+.hero {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1b2030 0%, #0f1423 100%);
+  border: 1px solid #394156;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.heroBackground {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(167, 139, 250, 0.15) 0%, rgba(34, 211, 238, 0.1) 100%);
+  z-index: 1;
+}
+
+.heroBadge {
+  display: inline-block;
+  padding: 6px 14px;
+  background: rgba(167, 139, 250, 0.2);
+  border: 1px solid #a78bfa;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #a78bfa;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.heroTitle {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  line-height: 1.1;
+  background: linear-gradient(135deg, #f1f5f9 0%, #a78bfa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.heroDescription {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 1.1rem;
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.heroActions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.heroButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.heroButtonPrimary {
+  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%);
+  color: #10121b;
+}
+
+.heroButtonPrimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(167, 139, 250, 0.4);
+}
+
+.heroButtonSecondary {
+  background: transparent;
+  color: #cbd5e1;
+  border: 1px solid #394156;
+}
+
+.heroButtonSecondary:hover {
+  background: #1b2030;
+  border-color: #475569;
+}
+
+.heroFeatures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #394156;
+}
+
+.heroFeature {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.heroFeatureIcon {
+  color: #22d3ee;
+}
+
+@media (max-width: 640px) {
+  .heroContent {
+    padding: 32px 24px;
+  }
+  
+  .heroActions {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .heroButton {
+    width: 100%;
+    justify-content: center;
+  }
+}
