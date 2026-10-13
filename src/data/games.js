@@ -6,7 +6,8 @@ export const games = [
     genre: 'Sandbox',
     price: 99.90,
     available: true,
-    image: 'https://image.api.playstation.com/vulcan/ap/rnd/202210/0412/ZnFfVx5F1wGd1WQdLh8QnQhY.png',
+    image: 'https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/About-Minecraft_Featured-Image-0_570x321.jpg',
+
   },
   {
     id: 2,
@@ -15,7 +16,7 @@ export const games = [
     genre: 'Action-Adventure',
     price: 299.00,
     available: true,
-    image: 'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/ncom/software/switch/70010000000025/5e8c2b4e7a2d4f5d5a4e5c4d5e6f7a8b',
+    image: 'https://assets.nintendo.com/image/upload/c_fill,w_600/q_auto:best/f_auto/store/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58',
   },
   {
     id: 3,
@@ -24,7 +25,7 @@ export const games = [
     genre: 'Action-Adventure',
     price: 349.90,
     available: true,
-    image: 'https://image.api.playstation.com/vulcan/ap/rnd/202209/0710/oJQxVwFf1wGd1WQdLh8QnQhY.png',
+    image: 'https://cdn.akamai.steamstatic.com/steam/apps/2322010/header.jpg',
   },
   {
     id: 4,
@@ -33,7 +34,7 @@ export const games = [
     genre: 'First-Person Shooter',
     price: 249.50,
     available: false,
-    image: 'https://assets.xboxservices.com/assets/3d/1f/3d1f1a1b-4c5d-6e7f-8a9b-0c1d2e3f4a5b.jpg?n=halo-infinite-key-art.jpg',
+    image: 'https://cdn.akamai.steamstatic.com/steam/apps/1240440/header.jpg',
   },
   {
     id: 5,
@@ -51,6 +52,6 @@ export const games = [
     genre: 'Action RPG',
     price: 299.90,
     available: false,
-    image: 'https://image.api.playstation.com/vulcan/ap/rnd/202201/2010/2B8VwFf1wGd1WQdLh8QnQhY.png',
+    image: 'https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg',
   },
 ]
